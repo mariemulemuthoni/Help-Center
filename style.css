@@ -1,0 +1,65 @@
+body {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.container {
+    background-color: white;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 70px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 140px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#navbar {
+    margin-left: 230px;
+}
+
+.search input[type=text] {
+    float: centre;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.d-flex {
+    margin-left: 200px;
+}
+
+#grid {
+    margin-top: 50px;
+}
+
+th {
+    font-weight: normal;
+}
+
+th,
+td {
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    width: 30px;
+}
+
+td {
+    border-collapse: collapse;
+}
+
+th:hover {
+    background-color: aliceblue;
+}
+
+td:hover {
+    background-color: aliceblue;
+}
