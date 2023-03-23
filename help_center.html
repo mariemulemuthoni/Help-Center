@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Help Center</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -11,45 +12,44 @@
 
 <body>
     <div class="container">
-        <!--HELP CENTER HEADER-->
-        <h2 id="header"><b>Help Center</b></h2>
-
-        <!--SEARCH BAR-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-            <div class="container-fluid">
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+        <div class="board">
+            <!--HELP CENTER HEADER-->
+            <div class="header">
+                <h2><b>Help Center</b></h2>
             </div>
-        </nav>
 
-        <!--TABLE-->
-        <table class="table table-bordered" id="grid">
-            <tbody>
-                <tr>
-                    <th scope="row">Billing and Membership</th>
-                    <td>Mananging and Organizing</td>
-                    <td>Uploading</td>
-                </tr>
-                <tr>
-                    <th scope="row">Uploading</th>
-                    <td>Video Enterprise</td>
-                    <td>Creators</td>
-                </tr>
-                <tr>
-                    <th scope="row">Enterprise</th>
-                    <td>Features</td>
-                    <td>Sales</td>
-                </tr>
-                <tr>
-                    <th scope="row">Embeding and Sharing</th>
-                    <td>Frequently Asked Questions (FAQs)</td>
-                    <td>Developers</td>
-                </tr>
-            </tbody>
-        </table>
+            <!--SEARCH BAR-->
+            <div class="search">
+                <div class="search_bar">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
 
+            <!--TABLE GRID-->
+            <div class="grid">
+                <div class="row">
+                    <div class="card bill">Billing and Membership</div>
+                    <div class="card manage">Managing and Organizing</div>
+                    <div class="card upload">Uploading</div>
+                </div>
+                <div class="row">
+                    <div class="card upload2">Uploading</div>
+                    <div class="card video">Video Enterprise</div>
+                    <div class="card create">Creators</div>
+                </div>
+                <div class="row">
+                    <div class="card enterprise">Enterprise</div>
+                    <div class="card feature">Features</div>
+                    <div class="card sales">Sales</div>
+                </div>
+                <div class="row">
+                    <div class="card embed">Embeding and Sharing</div>
+                    <div class="card faq">FAQs</div>
+                    <div class="card dev">Developers</div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
